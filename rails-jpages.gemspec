@@ -10,9 +10,6 @@ Gem::Specification.new do |gem|
   gem.email         = ["541991a@gmail.com"]
   gem.summary       = %q{rails gem for a plugins of jpages}
   gem.homepage      = "https://github.com/541991a/rails-jpages"
+  gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
-  gem.files     = [
-    "lib/rails-jpages.rb"
-  ]
-  
 end
